@@ -1,0 +1,42 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.timetable {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.timetable th,
+.timetable td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.timetable th {
+  background-color: #f2f2f2;
+}
+
+.timetable td:first-child {
+  font-weight: bold;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .timetable th,
+  .timetable td {
+    padding: 5px;
+  }
+
+  .timetable td:first-child {
+    font-size: 14px;
+  }
+}

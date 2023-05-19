@@ -1,0 +1,28 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  text-align: center;
+}
+/* 
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+} */
+
+p {
+  margin-top: 10px;
+  text-align: justify;
+}

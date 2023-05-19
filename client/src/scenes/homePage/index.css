@@ -1,0 +1,29 @@
+.video-section {
+  vertical-align: middle;
+}
+
+.image-section {
+  width: 100%;
+}
+
+.video {
+  width: 100%;
+  z-index: -1;
+}
+
+.video-section .button {
+  cursor: pointer;
+  background-color: transparent;
+  z-index: 1;
+  color: red;
+  font-weight: bold;
+  font-size: 20pt;
+  border-radius: 10px;
+  border-color: red;
+  border-width: 5px;
+  padding: 20px;
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, -50%);
+  bottom: -425px;
+}

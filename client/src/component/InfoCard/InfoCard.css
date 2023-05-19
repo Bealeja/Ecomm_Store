@@ -1,0 +1,10 @@
+.card-image {
+  width: 350px;
+  border-radius: 20px;
+}
+
+.card-section {
+  display: inline-block;
+  padding: 100px;
+  width: 400px;
+}

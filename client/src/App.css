@@ -1,0 +1,16 @@
+/* WARNING: GLOBAL CSS FILE */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,700&display=swap");
+
+.App {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Rubik", sans-serif;
+}

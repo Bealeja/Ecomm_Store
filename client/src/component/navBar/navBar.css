@@ -1,0 +1,53 @@
+.navbar {
+  background-color: white;
+  font-size: 15pt;
+  font-weight: bold;
+  vertical-align: middle;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.navbar-item {
+  padding: 20px;
+}
+
+.link-item {
+  color: gray;
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -ms-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s;
+}
+
+.link-item:hover {
+  color: darkgray;
+  cursor: pointer;
+}
+
+.search-item {
+  padding: 20px;
+  color: gray;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.search-item:hover {
+  color: orangered;
+  cursor: pointer;
+}
+
+.section-small {
+  display: flexbox;
+  width: 100%;
+}
+
+.search-bar-section {
+  position: fixed;
+  width: 100%;
+}
